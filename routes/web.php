@@ -11,7 +11,7 @@ Route::get('home','RegisterController@Home')->name('home');
 
 
 
-Route::get('/admin', function () {
+Route::get('/', function () {
     return view('back.pages.index');
 });
 
